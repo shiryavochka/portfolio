@@ -73,12 +73,16 @@
                 <section class="about " id="aboutme">
                     <div class="container">
                         <div class="about__text">
-                            <p >Меня зовут Анна, я Frontend разработчик. Недавно переехала в Санкт-Петербург. 
-                                Окончила Байкальский государственный университет, по направлению "Прикладная информатика". 
-                                Веб разработкой начала интересоваться в 2021 года, во время учебы на третьем курсе.
-                                За это время успела проработать 2 года в IT компании на позиции Web-разработчика. 
-                                Сейчас свое внимание сфокусировала на изучении Front-End, хочу создавать удобные и семантичные интерфейсы.
-                            </p>
+                            <div class="about__text--wrapper">
+                                <p>Меня зовут Анна, я Frontend разработчик. Недавно переехала в Санкт-Петербург.
+                                    За свою небольшую карьеру я проработала 2 года в IT-компании на позиции веб-разработчика. 
+                                    Там я приобрела опыт в разработке и поддержке сайтов, использующих популярные CMS (Bitrix, WordPress и т.д).</p>
+                                <p>   На данный момент моим приоритетом является развитие в Frontend, в качестве основного фреймворка  - Vue.js.</p>
+                                <p> Свободное время я посвящаю рисованию и интересуюсь дизайном. 
+                                Я считаю, что для Frontend-разработчика важно обладать творческим мышлением и любознательностью. 
+                                Кроме того, у меня развиты навыки командной работы и эффективного управления временем, что позволило мне успешно совмещать очное обучение в университете и профессиональную деятельность.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -91,6 +95,7 @@
                                     <p>Байкальский государственный университет</p>
                                     <p>Факультет: <span class="education__description">Прикладная информатика</span></p>
                                     <p> Специализация: <span   class="education__description">Информационные системы и технологии в управлении</span></p>
+                                    <p>Дипломная работа: <span  class="education__description">Мобильное приложение обработки заявок клиентов онлайн-агентства 1PS.RU</span></p>
                                     <p class="education-period">2018-2022</p>
                                 </div>
                             </div>
@@ -102,11 +107,13 @@
                                     <ul class="work-experience__competency">
                                         <li>поддержка и развитие существующих проектов ( на популярных CMS - Bitrix, WordPress, Joomla, OpenCart, MODX)</li>
                                         <li>техническая SEO оптимизация</li>
+                                        <li>оценка технических задач, анализ требований</li>
                                         <li>добавление нового функционала</li>
                                         <li>доработка дизайна, верстка макетов</li>
                                         <li>обновление CMS</li>
+                                        <li>настройка взаимодействия сайтов с различными сервисами</li>
                                         <li>поиск и устранение технических ошибок, восстановление работоспособности сайта</li>
-                                        <li>написание <a href="https://1ps.ru/blog/authors/1psru/anna-shiryaeva/" target="_blank" rel="nofollow">статей </a></li>
+                                        <li>написание <a href="https://1ps.ru/blog/authors/1psru/anna-shiryaeva/" target="_blank" rel="nofollow" class="link">статей </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -158,22 +165,24 @@
                                     <p>Представляет собой простую игру созданную с помощью HTML, CSS и чистого JavaScript.
                                         Для победы необходимо собрать все пары одинаковых карточек за минуту. 
                                     </p>
-                                    <a href="#">Ссылка на гит</a>
+                                    <a href="#" target="_blank" class="projects__link">Смотреть</a>
                                 </div>
                             </div>
                             <div class="cols-5 cols-sm-12 cols-md-6">
                                 <div class="project">
                                     <div class="project-img"><img src="img/todo.jpg"></div>
                                     <h4>To-do list</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#">Ссылка на гит</a>
+                                    <p>Cписок дел, который поможет организовать свой день. Выполнен на HTML, CSS, JavaScript.
+
+                                    </p>
+                                    <a href="#" target="_blank" class="projects__link">Смотреть</a>
                                 </div>
                             </div>
                             <div class="cols-5 cols-sm-12 cols-md-6">
                                 <div class="project">
-                                    <h4>Название</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
-                                    <a href="#">Ссылка на гит</a>
+                                    <h4>Money-manager</h4>
+                                    <p>Приложение написанное на Vue.js поможет вам следить за вашими тратами и более грамотно распоряжаться финансами. Данное приложение пока находится в разработке.</p>
+                                    <a href="#" target="_blank" class="projects__link">Смотреть</a>
                                 </div>
                             </div>
                         </div>
@@ -243,19 +252,4 @@
                 </footer>
                 <script src="script.js"></script>
             </body>
-<!-- HTML
-CSS
-ООП
-Работа с базами данных
-Sass
-Git
-CSS3
-HTML5
-JavaScript
-BEM
-Figma
-нание UML, Figma, HTML/CSS, JS,
- адаптивной верстки, ООП, БД, понимание клиент-серверной архитектуры (REST API, HTTP), 
- написание технической документации. Опыт работы с популярными CMS (Bitrix, WordPress,Joomla). 
- Умение анализировать, структурировать и систематизировать большие объемы информации. Коммуникабельность, креативность, внимательность. -->
 </html>

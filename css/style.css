@@ -32,13 +32,14 @@ h4 {
  }
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .running-bg {
   width: 100%;
   height: 44px;
   overflow: hidden;
-  position: relative;    background-color: #FFBB34;
+  position: relative;    
+  background-color: #FFBB34;
   text-transform: uppercase;
 }
   
@@ -72,6 +73,7 @@ h4 {
 .education-period {
   color: black;
   font-size: 20px;
+  font-weight: 700;
 }
 .work-experience__competency{
   color:#0e05ff;
@@ -103,13 +105,26 @@ h4 {
   border: 2px dashed #898282 */
 }
 .about__text p { 
-  font-size: 30px;
+  font-size: 26px;
   background: BLACK;
   color: white;
-  margin: 25PX 0 5PX;
+  margin: 0;
+  padding: 0px 5px;
   line-height: 1.2;
-  padding: 25PX 40PX 30PX;
+  margin:0;
+  padding: 0 30px;
 }
+.about__text p:last-child {
+  padding-bottom: 20px;
+}
+.about__text p:first-child {
+  padding-top: 20px;
+}
+.about__text--wrapper {
+  margin: 25PX 0 5PX;
+
+}
+ 
 .about   {
   margin: 0;
   padding: 10px auto;
@@ -137,7 +152,7 @@ h4 {
 }
 .about__text::after {
   right: -170px;
-  bottom: -50px;
+  bottom: -130px;
   background-image: url(/img/code.png);
 }
 .social-icon {
@@ -193,8 +208,15 @@ h1 {
   color: white;
   margin: 0;
 }
+.link, .link:visited {color: #FF6300;}
+
 .nav__link:hover, .nav__link:active {
   color: #0e05ff;
+}
+.projects__link , .projects__link:visited {
+  text-decoration: none;
+  color: #0e05ff;
+  font-weight: 700;
 }
 .email { color: white; }
 .email a { 
@@ -531,11 +553,13 @@ textarea:hover {
     background-size: 170px 170px;
   }
   .about__text::before {
-    left: 0;
-    top: -40px;
+    left: -55px;
+    top: -55px;
   }
   .about__text::after {
     right: 0px;
+    bottom: -85px;
+  
   }
   .about__text {
     box-shadow: 20px 50px 0px 0px white;
@@ -565,8 +589,9 @@ textarea:hover {
   }
   .about__text p {
     font-size: 20px;
-    padding: 15px;
+    padding: 2px 15px;
   }
+  
   .intro__subtitle {
     font-size: 30px;
   }
@@ -623,6 +648,9 @@ textarea:hover {
   .nav__list {
     padding: 11px 0;
   }
+  .nav__link { 
+    padding: 10px 6px;
+  }
   .intro { 
     padding-top: 20px;
   }
@@ -637,8 +665,8 @@ textarea:hover {
   }
   .about__text p {
     font-size: 15px;
-    padding: 13px;
-  }
+    padding: 2px 13px;
+  } 
   .about__text {
     padding: 10px;
     box-shadow: 25px 40px 0px -15px #FFF;
@@ -654,6 +682,7 @@ textarea:hover {
   }
   .about__text::after {
     right: 0px;
+    bottom: -40px;
   }
   #aboutme .container {
     max-width: 95%;
