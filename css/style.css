@@ -146,14 +146,14 @@ h4 {
   background-repeat: no-repeat;
 }   
 .about__text::before { 
-  background-image: url(img/coding.png);
+  background-image: url(../img/coding.png);
   left: -200px;
   top: -45px;
 }
 .about__text::after {
   right: -170px;
   bottom: -130px;
-  background-image: url(img/code.png);
+  background-image: url(../img/code.png);
 }
 .social-icon {
   width: 90px;
