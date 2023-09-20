@@ -1,10 +1,10 @@
 @font-face {
   font-family: "ca";
-  src: url(../Cakra-Normal.woff);
+  src: url(../Cakra-Normal.woff) format("woff");
 }
 @font-face {
   font-family: "ca"; 
-  src: url(../Cakra-Normal.woff2);
+  src: url(../Cakra-Normal.woff2) format("woff2");
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400); 
