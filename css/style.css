@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "cakra";
+  font-family: "ca";
   src: url(../Cakra-Normal.woff);
 }
 @font-face {
-  font-family: "cakra"; 
+  font-family: "ca"; 
   src: url(../Cakra-Normal.woff2);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400); 
 
-* {font-family: cakra;
+* {font-family: ca;
 }
 html {scroll-behavior: smooth;}
 section {
@@ -37,7 +37,7 @@ h4 {
   font-weight: 700;
  }
 .education__subtitle {
-  font-family: cakra;
+  font-family: ca;
  }
 .footer {
   display: flex;
