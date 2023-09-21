@@ -10,6 +10,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400); 
 
 * {font-family: ca;
+  -webkit-locale: auto;
+  white-space: normal;
 }
 html {scroll-behavior: smooth;}
 section {
