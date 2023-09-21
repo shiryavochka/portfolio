@@ -1,10 +1,18 @@
 @font-face {
   font-family: "ca";
-  src: url(../Cakra-Normal.woff) format("woff");
+  src: url(../fonts/Cakra-Normal.woff) format("woff");
 }
 @font-face {
   font-family: "ca"; 
-  src: url(../Cakra-Normal.woff2) format("woff2");
+  src: url(../fonts/Cakra-Normal.woff2) format("woff2");
+}
+@font-face {
+  font-family: "LusConsole"; 
+  src: url(../fonts/lucida-console.woff) format("woff");
+}
+@font-face {
+  font-family: "LusConsole"; 
+  src: url(../fonts/lucida-console.woff2) format("woff2");
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400); 
@@ -19,7 +27,7 @@ section {
 }
 
 p,ul,li,span {
-  font-family: "Lucida Console";
+  font-family: "LusConsole", "Lucida Console";
   font-size: 22px; 
 }
 .education p,  .work-experience p, .work-experience li, .project p{
